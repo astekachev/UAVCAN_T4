@@ -1,0 +1,55 @@
+#######################################
+# Syntax Coloring Map for 107-Arduino-UAVCAN
+#######################################
+
+#######################################
+# Class (KEYWORD1)
+#######################################
+
+ArduinoUAVCAN	KEYWORD1
+Request	KEYWORD1
+Response	KEYWORD1
+Heartbeat_1_0	KEYWORD1
+Health	KEYWORD1
+Mode	KEYWORD1
+ExecuteCommand_1_0	KEYWORD1
+Status	KEYWORD1
+Bit_1_0	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+onCanFrameReceived	KEYWORD2
+transmitCanFrame	KEYWORD2
+subscribe	KEYWORD2
+publish	KEYWORD2
+respond	KEYWORD2
+request	KEYWORD2
+deserialize	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+PORT_ID	LITERAL1
+PAYLOAD_SIZE	LITERAL1
+
+NOMINAL	LITERAL1
+ADVISORY	LITERAL1
+CAUTION	LITERAL1
+WARNING	LITERAL1
+
+OPERATIONAL	LITERAL1
+INITIALIZATION	LITERAL1
+MAINTENANCE	LITERAL1
+SOFTWARE_UPDATE	LITERAL1
+OFFLINE	LITERAL1
+
+SUCCESS	LITERAL1
+FAILURE	LITERAL1
+NOT_AUTHORIZED	LITERAL1
+BAD_COMMAND	LITERAL1
+BAD_PARAMETER	LITERAL1
+BAD_STATE	LITERAL1
+INTERNAL_ERROR	LITERAL1
